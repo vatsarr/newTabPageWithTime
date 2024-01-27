@@ -14,6 +14,6 @@ function updateTime() {
     currentTime.textContent = timeString;
 }
 
-setInterval(updateTime, 1000);
+setInterval(updateTime, 100);
 
 updateTime();
