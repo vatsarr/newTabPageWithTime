@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
 * {
     margin: 0;
     padding: 0;
@@ -23,7 +23,7 @@ body {
 
 .currentTime {
     font-size: 12rem;
-    font-weight: 100;
+    font-weight: 400;
     position: absolute;
     top: 50%;
     -ms-transform: translateY(-50%);
@@ -31,8 +31,20 @@ body {
 }
 
 .greeting {
-    font-size: 3rem;
-    font-weight: 400;
+    margin-top: 35rem;
+    font-size: 2rem;
+    font-weight: 300;
     height: 6rem;
     top: 50%;
+    width: 60%;
+    text-align: center;
+}
+
+footer {
+    color: rgba(161, 161, 161, 0.615);
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    padding: 2rem;
 }
