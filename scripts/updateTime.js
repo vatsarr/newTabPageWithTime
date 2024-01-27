@@ -1,4 +1,6 @@
 const currentTime = document.getElementById("time");
+const hoursDisplayed = document.getElementById("hours");
+const minutesDisplayed = document.getElementById("minutes");
 const year = document.getElementById("year");
 
 function updateTime() {
@@ -11,7 +13,9 @@ function updateTime() {
 
     const timeString = `${hours}:${minutes}`;
 
-    currentTime.textContent = timeString;
+    hoursDisplayed.textContent = hours;
+    minutesDisplayed.textContent = minutes;
+
     year.textContent = currentYear;
 }
 

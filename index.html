@@ -7,14 +7,35 @@
         <title>New Tab</title>
     </head>
     <body>
-        <div class="container">
+        <div id="container" class="container">
+            <header>
+                <ul>
+                    <li class="chrome">
+                        <a target="_blank"
+                            ><img src="images/chrome.png" alt=""
+                        /></a>
+                    </li>
+                    <li id="temperature" class="temperature">ILM</li>
+                </ul>
+            </header>
             <div id="time-container" class="time-container">
-                <h1 id="time" class="currentTime"></h1>
-                <p id="quote" class="greeting"></p>
-                <footer>Risto Vatsar &#169; <span id="year"></span></footer>
+                <ul class="list">
+                    <li class="list-item currentTime">
+                        <h1 id="time">
+                            <span id="hours"></span><span class="colon">:</span
+                            ><span id="minutes"></span>
+                        </h1>
+                    </li>
+                    <li class="list-item greeting">
+                        <p id="quote"></p>
+                    </li>
+                </ul>
             </div>
+            <footer>Risto Vatsar &#169; <span id="year"></span></footer>
         </div>
-        <script src="index.js"></script>
-        <script src="getquote.js"></script>
+        <script src="scripts/updateTime.js"></script>
+        <script src="scripts/getquote.js"></script>
+        <script src="scripts/getBackground.js"></script>
+        <script src="scripts/getWeather.js"></script>
     </body>
 </html>
