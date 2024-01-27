@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: Montserrat, Roboto, sans-serif;
+    font-family: Montserrat, sans-serif;
     min-width: 470px;
 }
 
@@ -76,7 +76,7 @@ header ul li {
 
 .currentTime {
     font-size: 7rem;
-    font-weight: 400;
+    font-weight: 2s00;
 }
 
 .greeting {

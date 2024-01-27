@@ -11,7 +11,10 @@
             <header>
                 <ul>
                     <li class="chrome">
-                        <a target="_blank"
+                        <a
+                            onclick="Open()"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             ><img src="images/chrome.png" alt=""
                         /></a>
                     </li>
@@ -37,5 +40,10 @@
         <script src="scripts/getquote.js"></script>
         <script src="scripts/getBackground.js"></script>
         <script src="scripts/getWeather.js"></script>
+        <script>
+            function Open() {
+                window.open("https://www.google.com", "_blank");
+            }
+        </script>
     </body>
 </html>
